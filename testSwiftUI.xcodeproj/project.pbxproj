@@ -16,6 +16,8 @@
 		84F1BE4129481AAF00F9C44B /* testSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BE4029481AAF00F9C44B /* testSwiftUIUITestsLaunchTests.swift */; };
 		84F1BE502948550200F9C44B /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BE4F2948550200F9C44B /* TextPractice.swift */; };
 		84F1BE522948558B00F9C44B /* ButtonPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BE512948558B00F9C44B /* ButtonPractice.swift */; };
+		84F1BE542948681900F9C44B /* StatePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BE532948681900F9C44B /* StatePractice.swift */; };
+		84F1BE572948687100F9C44B /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1BE562948687100F9C44B /* ExtensionColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		84F1BE4029481AAF00F9C44B /* testSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84F1BE4F2948550200F9C44B /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		84F1BE512948558B00F9C44B /* ButtonPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPractice.swift; sourceTree = "<group>"; };
+		84F1BE532948681900F9C44B /* StatePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePractice.swift; sourceTree = "<group>"; };
+		84F1BE562948687100F9C44B /* ExtensionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,12 @@
 		84F1BE2229481AAC00F9C44B /* testSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				84F1BE552948685800F9C44B /* Extension */,
 				84F1BE2329481AAC00F9C44B /* testSwiftUIApp.swift */,
 				84F1BE2529481AAC00F9C44B /* ContentView.swift */,
 				84F1BE4F2948550200F9C44B /* TextPractice.swift */,
 				84F1BE512948558B00F9C44B /* ButtonPractice.swift */,
+				84F1BE532948681900F9C44B /* StatePractice.swift */,
 				84F1BE2729481AAF00F9C44B /* Assets.xcassets */,
 				84F1BE2929481AAF00F9C44B /* Preview Content */,
 			);
@@ -131,6 +137,14 @@
 				84F1BE4029481AAF00F9C44B /* testSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = testSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		84F1BE552948685800F9C44B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84F1BE562948687100F9C44B /* ExtensionColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +280,9 @@
 				84F1BE502948550200F9C44B /* TextPractice.swift in Sources */,
 				84F1BE2629481AAC00F9C44B /* ContentView.swift in Sources */,
 				84F1BE522948558B00F9C44B /* ButtonPractice.swift in Sources */,
+				84F1BE542948681900F9C44B /* StatePractice.swift in Sources */,
 				84F1BE2429481AAC00F9C44B /* testSwiftUIApp.swift in Sources */,
+				84F1BE572948687100F9C44B /* ExtensionColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
